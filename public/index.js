@@ -20,13 +20,6 @@ function isUrl(val = '') {
     return false;
 };
 
-function loadMario() {
-    window.location.replace('g4mescreen/supermario64.html');
-}
-
-function loadFireboyWatergirl() {
-    window.location.replace('g4mescreen/fbwg.html');
-}
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
